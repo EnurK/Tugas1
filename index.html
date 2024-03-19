@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pencarian Lokasi</title>
+  
+</head>
+<body>
+    <style>
+        body {
+  font-family: Arial, sans-serif;
+}
+
+#app {
+  text-align: center;
+  margin-top: 50px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#location-info {
+  margin-top: 20px;
+  text-align: left;
+}
+
+    </style>
+  <div id="app">
+    <h1>Pencarian Lokasi</h1>
+    <input type="text" id="search-input" placeholder="Masukkan nama lokasi">
+    <button id="search-btn">Cari</button>
+    <div id="location-info"></div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
